@@ -146,4 +146,10 @@ input[type="submit"]:hover {
     h1, h2, h3 {
         text-align: center; /* タイトルを中央揃え */
     }
+
+}
+
+.title {
+    font-size: 1.5rem; /* 小さくしすぎずバランスを取る */
+    white-space: nowrap; /* 文字を折り返さないようにする */
 }
