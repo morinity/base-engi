@@ -153,3 +153,18 @@ input[type="submit"]:hover {
     font-size: 1.5rem; /* 小さくしすぎずバランスを取る */
     white-space: nowrap; /* 文字を折り返さないようにする */
 }
+
+.main-visual {
+  background: linear-gradient(#dfefff, #ffffff);
+  padding: 60px 20px;
+  text-align: center;
+}
+.catch-copy h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+.catch-copy p {
+  font-size: 1.2rem;
+  color: #666;
+}
