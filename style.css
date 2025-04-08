@@ -170,8 +170,11 @@ input[type="submit"]:hover {
 }
 
 .main-image {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-    border-radius: 10px;
+  max-width: 100%;
+  width: 300px;     /* ここでサイズを調整 */
+  height: auto;
+  display: block;
+  margin: 20px auto;  /* 中央寄せと余白 */
+  border-radius: 10px; /* 角を少し丸く */
 }
+
