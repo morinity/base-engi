@@ -177,3 +177,19 @@ input[type="submit"]:hover {
   border-radius: 10px;
 }
 
+.counseling {
+  background-color: #f0f8ff;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 40px 0;
+}
+.counseling h2 {
+  color: #2a4d69;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.counseling p {
+  font-size: 16px;
+  line-height: 1.6;
+}
