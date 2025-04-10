@@ -196,3 +196,27 @@ input[type="submit"]:hover {
   max-width: 600px;
   margin: 0 auto;
 }
+
+.empathy-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-top: 30px;
+  border-left: 5px solid #7ba4ff;
+}
+
+.empathy-section h2 {
+  font-size: 1.4em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.empathy-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.empathy-section li {
+  font-size: 1.1em;
+  padding: 8px 0;
+  border-bottom: 1px dotted #ccc;
+}
