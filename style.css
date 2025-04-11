@@ -227,3 +227,10 @@ input[type="submit"]:hover {
   margin: 20px;
 }
 
+.anxiety {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
