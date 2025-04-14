@@ -234,3 +234,21 @@ input[type="submit"]:hover {
   margin: 20px auto;
   border-radius: 10px;
 }
+
+.feature-section {
+  background-color: #f7f9fa;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.feature-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.feature-section p {
+  font-size: 1.1em;
+  color: #444;
+  line-height: 1.6;
+}
