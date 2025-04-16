@@ -253,3 +253,12 @@ input[type="submit"]:hover {
   line-height: 1.6;
   text-align: left;
 　}
+
+
+.talk {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
