@@ -262,3 +262,36 @@ input[type="submit"]:hover {
   margin: 20px auto;
   border-radius: 10px;
 }
+
+.flow-section {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.flow-section h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.flow-step {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.flow-step img {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.flow-step h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+}
+
+.flow-step p {
+  margin: 0;
+  line-height: 1.6;
+}
