@@ -314,3 +314,13 @@ input[type="submit"]:hover {
   margin-top: 0;
   color: #333;
 }
+
+.flow-image {
+  max-width: 600px;
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
