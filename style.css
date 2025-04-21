@@ -280,11 +280,6 @@ input[type="submit"]:hover {
   margin-bottom: 30px;
 }
 
-.flow-step img {
-  width: 60px;
-  height: 60px;
-  margin-right: 20px;
-}
 
 .flow-step h3 {
   margin: 0 0 10px 0;
