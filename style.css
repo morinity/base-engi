@@ -316,8 +316,7 @@ input[type="submit"]:hover {
 }
 
 .flow-step {
-  max-width: 600px;
-  width: 80%;
+  max-width: 90%;
   height: auto;
   display: block;
   margin: 20px auto;
