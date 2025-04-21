@@ -310,7 +310,7 @@ input[type="submit"]:hover {
   color: #333;
 }
 
-.flow-step {
+.flow-step img{
   max-width: 90%;
   height: auto;
   display: block;
