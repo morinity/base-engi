@@ -315,7 +315,7 @@ input[type="submit"]:hover {
   color: #333;
 }
 
-.flow-image {
+.flow-step {
   max-width: 600px;
   width: 80%;
   height: auto;
