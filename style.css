@@ -316,3 +316,29 @@ input[type="submit"]:hover {
   border-radius: 10px;
 }
 
+
+.sns-links {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.insta-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #e1306c;
+  font-weight: bold;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+.insta-link:hover {
+  color: #ad1457;
+}
+
+.insta-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  fill: currentColor;
+}
