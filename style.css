@@ -323,17 +323,20 @@ input[type="submit"]:hover {
 }
 
 .insta-link {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  color: #e1306c;
-  font-weight: bold;
-  font-size: 1em;
-  transition: color 0.3s;
+  display: inline-block;
+  font-size: 1.2em; /* 文字を大きく */
+  color: #e1306c;   /* インスタっぽいピンク色 */
+  text-decoration: none; /* 下線を消す */
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid #e1306c;
+  border-radius: 8px;
+  transition: all 0.3s ease;
 }
 
 .insta-link:hover {
-  color: #ad1457;
+   background-color: #e1306c;
+  color: white;
 }
 
 .insta-icon {
