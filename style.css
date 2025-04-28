@@ -316,6 +316,40 @@ input[type="submit"]:hover {
   border-radius: 10px;
 }
 
+.sns-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* アイコンやボタンの間に余白 */
+  margin-top: 30px;
+}
+
+.insta-link, .note-link {
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  transition: background-color 0.3s;
+}
+
+.insta-link {
+  background-color: #e1306c; /* Instagramカラー */
+  color: white;
+}
+
+.insta-link:hover {
+  background-color: #ad1457;
+}
+
+.note-link {
+  background-color: #00c300; /* noteカラー */
+  color: white;
+}
+
+.note-link:hover {
+  background-color: #009900;
+}
 
 .instagram-card {
   max-width: 300px;
