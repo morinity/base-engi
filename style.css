@@ -323,9 +323,28 @@ input[type="submit"]:hover {
   margin-top: 30px;
 }
 
+.sns-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.sns-card {
+  text-align: center;
+}
+
+.qr-code {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
 .insta-link, .note-link {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 8px 15px;
   font-weight: bold;
   text-decoration: none;
   border-radius: 8px;
@@ -334,7 +353,7 @@ input[type="submit"]:hover {
 }
 
 .insta-link {
-  background-color: #e1306c; /* Instagramカラー */
+  background-color: #e1306c;
   color: white;
 }
 
@@ -343,39 +362,12 @@ input[type="submit"]:hover {
 }
 
 .note-link {
-  background-color: #00c300; /* noteカラー */
+  background-color: #00c300;
   color: white;
 }
 
 .note-link:hover {
   background-color: #009900;
-}
-
-.instagram-card {
-  max-width: 300px;
-  margin: 30px auto;
-  padding: 20px;
-  border-radius: 15px;
-  background: linear-gradient(to right, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-  color: white;
-  text-align: center;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-}
-
-.instagram-card img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 15px;
-}
-
-.instagram-card a {
-  color: #fff;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.instagram-card a:hover {
-  text-decoration: none;
 }
 
 .contact-section h2 {
