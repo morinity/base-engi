@@ -316,6 +316,21 @@ input[type="submit"]:hover {
   border-radius: 10px;
 }
 
+.contact-section button {
+  font-size: 2em; /* 通常の約2〜3倍に大きく */
+  padding: 15px 30px;
+  background-color: #4682B4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-section button:hover {
+  background-color: #315f86;
+}
+
 .sns-links {
   display: flex;
   justify-content: center;
