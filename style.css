@@ -396,4 +396,11 @@ input[type="submit"]:hover {
 .contact-button:hover {
   background-color: #315f86;
 }
+.sns-heading {
+  text-align: center;
+  font-size: 1.8em;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #333;
+}
 
